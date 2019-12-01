@@ -22,21 +22,21 @@ This is important to find inconsistencies and missing values in the datasets
 
 ### 4. app_code
 #### Contains code for Analysis
-##### Sql queries to understand the data distribution
+#### Sql queries to understand the data distribution
 1. Airport wise total records and delay record
 2. Month wise delays for each airport
 3. Flight Distance wise delays
 
-##### Machine Learning models using MLlib
+#### Machine Learning models using MLlib
 1. LogisticRegression
 2. Decision Tree
 3. Random Forest
 4. Support Vector Machine
 
-##### Flask web application
+#### Flask web application
 Basic web app to enable the user to check prediction about his upcoming flight
 
-##### NOAA SDK
+#### NOAA SDK
 SDK was used to get forecasts for a given airport and date which were used as features to get prediction about delay
 
 ### 5. act_rem_code
