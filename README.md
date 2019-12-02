@@ -45,7 +45,6 @@ A web applicaiton for user was created which takes the flight date-time and airp
 ### 6. ReadMe.txt
 It contains instructions to run the code on NYU HPC cluster
 
-## Spark Ecosystem Tool
-Scala-Spark, Spark MLlib, Spark SQL
+
 
 

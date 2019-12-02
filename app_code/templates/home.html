@@ -1,0 +1,45 @@
+<!-- Main home page HTML code -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		/*CSS code*/
+			.center {
+			  display: block;
+			  width: 65%;
+			  margin-top: 10%;
+			  margin-left: auto;
+			  margin-right: auto;
+			}
+			.formcenter {
+			  display: block;
+			  width: 67%;
+			  margin-left: auto;
+			  margin-right: auto;
+			}
+			.buttonclass{ width: 95%; text-align: center}
+		</style>
+	</head>
+    
+	<body>
+		<!-- Outer box -->
+		<div style="width:370px;height:450px;border:1px solid #000; margin-left:130px">
+			<!-- Flight image -->
+			<img src="{{ user_image }}" alt="User Image" class="center">
+	        <!-- Header -->
+	        <h4 class="formcenter">Check your Upcoming flight Status</h4>
+			<div class="center">
+				<!-- Form fields -->
+				<form method="post" action="." class="center">
+					<p><input type="text" name="tbAirportName" placeholder="Enter Airport" /></p>
+					<p><input type="text" name="tbZipcode" placeholder="Enter Zipcode" /></p>
+	    				<p><input type="text" name="tbDate" placeholder="Enter Date(yyyy-mm-dd) of flight (max 5 days in advance)" /></p>
+					<p><input type="text" name="tbDist" placeholder= "Enter flight Distance"/></p>
+	                <div class="buttonclass">
+	                     <input type="submit" name="btSave" value="Submit" center/>
+	                </div>
+	 			</form>
+			</div>
+        </div>
+	</body>
+</html>
