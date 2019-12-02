@@ -11,7 +11,7 @@ https://transtats.bts.gov/Tables.asp?DB_ID=120&DB_Name=Airline%20On-Time%20Perfo
 ## NYU HPC cluster was used 
 ## Folders 
 ### 1. data_ingest
-It contains commands to ingest data n HDFS
+It contains commands to ingest data in HDFS
 
 ### 2. etl_code
 It contains code for cleaning datasets
